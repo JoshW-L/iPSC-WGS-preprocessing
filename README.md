@@ -40,10 +40,10 @@ Alignment requires reference genome that can be found here:
 https://leeds365-my.sharepoint.com/:f:/r/personal/bs23jmw_leeds_ac_uk/Documents/ARC4/WGS/Data/Alignment/Reference?csf=1&web=1&e=SdHKOC
 
 Next you can run bam alignment to convert sam files into bam:
-
+https://leeds365-my.sharepoint.com/:f:/g/personal/bs23jmw_leeds_ac_uk/Epx1_Bldg75Bsr1QQxehx2oBCXkzSoAQeYYJR_JKAHv63Q?e=QgxXt8
 
 Then you have an option to concatenate the replicates into one for each sample. To do that I used these bash scripts:
-
+https://leeds365-my.sharepoint.com/:f:/g/personal/bs23jmw_leeds_ac_uk/Ekezk4TGk2BCj5XxCGyRwgkBxbCPIYY-kvGovJqq2SNHRg?e=39mYBg
 
 Then you can finally run VCF. To do that you need GATK. Good information about this tool is here:
 https://gatk.broadinstitute.org/hc/en-us/articles/360036194592-Getting-started-with-GATK4 
@@ -51,8 +51,16 @@ https://gatk.broadinstitute.org/hc/en-us/articles/360036194592-Getting-started-w
 And Mutect2 is what you need:
 https://gatk.broadinstitute.org/hc/en-us/articles/27007991962907-Mutect2
 
+I obtained Panel of Normals (PoN) and Germline background which are here:
+https://leeds365-my.sharepoint.com/:f:/g/personal/bs23jmw_leeds_ac_uk/EsN2f6_QAMxAliQ7kcsolAwB1yaWgkI2DJwY-yHVf_QnlQ?e=wCNZgq
+
+I have made an example bash script for G-R1-P that can be found here:
+https://leeds365-my.sharepoint.com/:f:/g/personal/bs23jmw_leeds_ac_uk/EpDVG6RbN6JLp2F-zimpkZQBuCB7GdLRXuhWrBDyahX14A?e=LzCEHX
+
 I downladed this tool and kept it in my tool directory:
+https://leeds365-my.sharepoint.com/:f:/g/personal/bs23jmw_leeds_ac_uk/EvLho6mffttAkKEisVHp0ZsBvFrVxDAbHj1ggbedrVq8Yw?e=CadoLm
 
 Then you need this version of java to run it:
+https://leeds365-my.sharepoint.com/:f:/g/personal/bs23jmw_leeds_ac_uk/EuNcpSLEGPJCm0KxHAVChVIBWkgptgJUEOobMuQNaowpDA?e=Lzdo6P
 
-Finally you need to get a panel of normals and 
+Hopefully that is everything you need. Good Luck!!!
